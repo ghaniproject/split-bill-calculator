@@ -16,3 +16,13 @@ export function formatDate(dateString: string) {
     minute: "2-digit"
   });
 }
+
+export function formatNumber(num: number | string): string {
+  if (num === "" || num === undefined || num === null) return "";
+  const value = typeof num === "string" ? parseNumber(num) : num;
+  return new Intl.NumberFormat("id-ID").format(value);
+}
+
+export function parseNumber(str: string): number {
+  return Number(str.replace(/\D/g, ""));
+}

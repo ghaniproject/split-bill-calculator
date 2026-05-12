@@ -41,14 +41,14 @@ export function Header({
         </div>
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-slate-900 dark:text-white">
-            Split Bill
+            MySplitBill
           </h1>
           {user ? (
             <p className="text-indigo-600 dark:text-indigo-400 text-xs font-bold flex items-center gap-1">
               <UserIcon className="w-3 h-3" /> {user.email}
             </p>
           ) : (
-            <p className="text-slate-500 dark:text-slate-400 text-sm">Patungan bareng teman</p>
+            <p className="text-slate-500 dark:text-slate-400 text-sm"></p>
           )}
         </div>
       </div>

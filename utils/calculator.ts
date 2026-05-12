@@ -59,11 +59,10 @@ export function calculateBill(
   let totalTaxAndService = 0;
   let grandTotal = 0;
 
-  // Calculate tax, service, and total per person
   const personResults: PersonResult[] = people.map((person) => {
     const subtotal = subtotalMap.get(person.id) || 0;
     
-    // Sesuai rumus: Total Individu = Subtotal Individu * (1 + (Total Pajak + Service)/100)
+    // Rumus: Total Individu = Subtotal Individu * (1 + (Total Pajak + Service)/100)
     const total = subtotal * (1 + taxAndServiceMultiplier);
     const taxAndServiceAmount = total - subtotal;
 

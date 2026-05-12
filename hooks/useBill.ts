@@ -13,8 +13,8 @@ export function useBill(user: any, saveToLocalHistory: (id: string) => void) {
   const [people, setPeople] = useState<Person[]>([]);
   const [items, setItems] = useState<Item[]>([]);
   const [settings, setSettings] = useState<BillSettings>({
-    taxPercent: 11,
-    serviceChargePercent: 5,
+    taxPercent: 0,
+    serviceChargePercent: 0,
   });
 
   const [isSaving, setIsSaving] = useState(false);
@@ -39,7 +39,7 @@ export function useBill(user: any, saveToLocalHistory: (id: string) => void) {
       if (data && data.data) {
         setPeople(data.data.people || []);
         setItems(data.data.items || []);
-        setSettings(data.data.settings || { taxPercent: 11, serviceChargePercent: 5 });
+        setSettings(data.data.settings || { taxPercent: 0, serviceChargePercent: 0 });
         setShareUrl(`${window.location.origin}?id=${id}`);
       }
     } catch (err) {

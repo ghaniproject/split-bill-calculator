@@ -28,7 +28,7 @@ export function ItemSection({ items, people, onAddItem, onRemoveItem, onTogglePe
     <section className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 p-6 transition-colors">
       <div className="flex items-center gap-2 mb-4 text-lg font-semibold border-b border-slate-100 dark:border-slate-800 pb-3 text-slate-900 dark:text-white">
         <Receipt className="w-5 h-5 text-indigo-500" />
-        <h2>2. Daftar Pesanan</h2>
+        <h2>List Pesanan</h2>
       </div>
 
       <div className="space-y-4 mb-6">
@@ -90,7 +90,7 @@ export function ItemSection({ items, people, onAddItem, onRemoveItem, onTogglePe
         <div className="flex-1">
           <input
             type="text"
-            placeholder="Nama Item (mis: Nasi Goreng)"
+            placeholder="Nama Item"
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white px-4 py-2.5 text-sm focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500/20 placeholder:text-slate-400 dark:placeholder:text-slate-500"
