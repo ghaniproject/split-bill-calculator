@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 MySplitBill - Kalkulator Patungan Pintar
 
-## Getting Started
+**MySplitBill** adalah aplikasi web modern yang dirancang untuk memudahkan Anda membagi tagihan (makan, belanja, atau patungan lainnya) bersama teman secara adil, cepat, dan transparan. Tidak perlu lagi pusing menghitung pajak, layanan, atau siapa pesan apa.
 
-First, run the development server:
+![MySplitBill Banner](https://images.unsplash.com/photo-1554224155-1696413575b3?auto=format&fit=crop&q=80&w=1200&h=400)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Fitur Unggulan
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 💸 **Perhitungan Presisi**: Mendukung perhitungan subtotal, pajak (PPN), dan *service charge* secara proporsional.
+- 🌓 **Mode Gelap & Terang**: Tampilan antarmuka premium yang nyaman di mata dalam kondisi cahaya apa pun.
+- 🔗 **Bagikan Link**: Simpan kalkulasi Anda dan dapatkan link unik untuk dibagikan ke teman via WhatsApp atau Telegram.
+- ☁️ **Sinkronisasi Cloud**: Login untuk menyimpan riwayat patungan Anda secara permanen dan akses dari perangkat mana pun.
+- 🏠 **Akses Lokal (Guest Mode)**: Tidak ingin login? Tetap bisa digunakan! Riwayat akan tersimpan aman di browser Anda.
+- 📱 **Responsif & Ringan**: Didesain untuk bekerja sempurna di HP maupun Desktop.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: [Next.js 15+](https://nextjs.org/) (App Router, Turbopack)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Database & Auth**: [Supabase](https://supabase.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Theme Management**: [next-themes](https://github.com/pacocoursey/next-themes)
 
-## Learn More
+### Prasyarat
+- Node.js 18+
+- pnpm (recomendation)
 
-To learn more about Next.js, take a look at the following resources:
+2. **Instal dependensi:**
+   ```bash
+   pnpm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Running App**
+   ```bash
+   pnpm dev
+   ```

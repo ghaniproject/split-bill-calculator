@@ -21,6 +21,7 @@ import { PeopleSection } from "@/components/sections/PeopleSection";
 import { ItemSection } from "@/components/sections/ItemSection";
 import { SettingsSection } from "@/components/sections/SettingsSection";
 import { SummarySection } from "@/components/sections/SummarySection";
+import { Footer } from "@/components/sections/Footer";
 
 function SplitBillContent() {
   const searchParams = useSearchParams();
@@ -150,6 +151,7 @@ function SplitBillContent() {
           </div>
         </div>
 
+        <Footer />
       </div>
     </div>
   );

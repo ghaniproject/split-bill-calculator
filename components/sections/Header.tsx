@@ -58,11 +58,11 @@ export function Header({
         
         {user ? (
           <button onClick={onLogout} className="flex items-center gap-1 bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-900/30 px-3 py-2 rounded-full text-xs font-bold transition-colors">
-            <LogOut className="w-3 h-3" /> Keluar
+            <LogOut className="w-3 h-3" /> Logout
           </button>
         ) : (
           <button onClick={onOpenAuth} className="flex items-center gap-1 bg-indigo-50 dark:bg-indigo-900/20 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-100 dark:hover:bg-indigo-900/30 px-3 py-2 rounded-full text-xs font-bold transition-colors">
-            <LogIn className="w-3 h-3" /> Login / Daftar
+            <LogIn className="w-3 h-3" /> Login / Sign Up
           </button>
         )}
 
