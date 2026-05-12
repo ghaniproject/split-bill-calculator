@@ -13,7 +13,7 @@ export function SettingsSection({ settings, onUpdateSettings }: SettingsSectionP
     <section className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200 dark:border-slate-800 p-6 transition-colors">
       <div className="flex items-center gap-2 mb-4 text-lg font-semibold border-b border-slate-100 dark:border-slate-800 pb-3 text-slate-900 dark:text-white">
         <DollarSign className="w-5 h-5 text-indigo-500" />
-        <h2>3. Pajak & Layanan</h2>
+        <h2>Pajak & Layanan</h2>
       </div>
       <div className="grid grid-cols-2 gap-4">
         <div>
