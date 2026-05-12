@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Split Bill Calculator",
-  description: "Bagi tagihan jadi lebih mudah dan adil.",
+  title: "MySplitBill",
+  description: "Patugan bareng temen jadi mudah",
 };
 
 export default function RootLayout({
