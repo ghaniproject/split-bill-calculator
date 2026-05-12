@@ -4,6 +4,8 @@ import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from 'next/navigation';
 import { Loader2 } from "lucide-react";
 
+export const dynamic = 'force-dynamic';
+
 // Hooks
 import { useAuth } from "@/hooks/useAuth";
 import { useHistory } from "@/hooks/useHistory";
