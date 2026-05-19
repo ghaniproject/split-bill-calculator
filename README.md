@@ -29,32 +29,20 @@
 - **Node.js**: Version 18 or higher.
 - **pnpm**: Recommended package manager.
 
-### ⚙️ Setup Instructions
+### Setup Installations
 
-1. **Clone the repository and navigate to the project directory:**
-   ```bash
-   cd split-bill-cal
-   ```
-
-2. **Configure Environment Variables:**
-   Create a `.env.local` file in the root directory and populate it with your Supabase credentials:
-   ```env
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_public_key
-   ```
-
-3. **Install Dependencies:**
+1. **Install Dependencies:**
    ```bash
    pnpm install
    ```
 
-4. **Run the Development Server:**
+2. **Run the Development Server:**
    ```bash
    pnpm dev
    ```
    Open [http://localhost:3000](http://localhost:3000) in your browser to see the live application.
 
-5. **Build for Production:**
+3. **Build for Production:**
    ```bash
    pnpm build
    pnpm start
