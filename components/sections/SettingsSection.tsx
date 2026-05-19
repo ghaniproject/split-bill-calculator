@@ -23,9 +23,10 @@ export function SettingsSection({ settings, onUpdateSettings }: SettingsSectionP
           <input
             type="number"
             value={settings.taxPercent}
-            onChange={(e) =>
-              onUpdateSettings({ taxPercent: Number(e.target.value) })
-            }
+            onChange={(e) => {
+              const val = e.target.value === "" ? "" : Number(e.target.value);
+              onUpdateSettings({ taxPercent: val });
+            }}
             className="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white px-4 py-2.5 text-sm font-bold focus:border-indigo-500 focus:outline-none"
           />
         </div>
@@ -36,9 +37,10 @@ export function SettingsSection({ settings, onUpdateSettings }: SettingsSectionP
           <input
             type="number"
             value={settings.serviceChargePercent}
-            onChange={(e) =>
-              onUpdateSettings({ serviceChargePercent: Number(e.target.value) })
-            }
+            onChange={(e) => {
+              const val = e.target.value === "" ? "" : Number(e.target.value);
+              onUpdateSettings({ serviceChargePercent: val });
+            }}
             className="w-full rounded-xl border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-900 dark:text-white px-4 py-2.5 text-sm font-bold focus:border-indigo-500 focus:outline-none"
           />
         </div>

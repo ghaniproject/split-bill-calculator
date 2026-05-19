@@ -11,8 +11,8 @@ export interface Item {
 }
 
 export interface BillSettings {
-  taxPercent: number;
-  serviceChargePercent: number;
+  taxPercent: number | "";
+  serviceChargePercent: number | "";
 }
 
 export interface PersonResult {
@@ -53,8 +53,9 @@ export function calculateBill(
     }
   });
 
-  const taxAndServiceMultiplier =
-    (settings.taxPercent + settings.serviceChargePercent) / 100;
+  const taxPercent = Number(settings.taxPercent) || 0;
+  const serviceChargePercent = Number(settings.serviceChargePercent) || 0;
+  const taxAndServiceMultiplier = (taxPercent + serviceChargePercent) / 100;
 
   let totalTaxAndService = 0;
   let grandTotal = 0;
