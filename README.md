@@ -47,3 +47,7 @@
    pnpm build
    pnpm start
    ```
+
+
+   you can try app on: https://mysplitbill.vercel.app/
+
