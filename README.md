@@ -1,19 +1,19 @@
-# 🚀 MySplitBill - Smart Bill Splitter
+# MySplitBill - Smart Bill Splitter
 
 **MySplitBill** is a modern web application designed to help you split bills (dining, shopping, or any other shared expenses) with friends fairly, quickly, and transparently. No more headache computing tax, service charges, or figuring out who ordered what.
 
 ![MySplitBill Banner](public/Banner.png)
 
-## ✨ Key Features
+## Key Features
 
-- 💸 **Precision Calculation**: Supports proportional calculation of subtotals, tax (VAT/PPN), and service charges.
-- 🌓 **Dark & Light Mode**: A premium, eye-friendly user interface available in both light and dark modes.
-- 🔗 **Shareable Links**: Save your bill calculation and generate a unique link to easily share with friends via WhatsApp, Telegram, or other platforms.
-- ☁️ **Cloud Sync**: Sign in to permanently save your bill history and access it from any device.
-- 🏠 **Local Access (Guest Mode)**: Don't want to sign up? No problem! The application works fully offline and saves your history securely in your local browser storage.
-- 📱 **Responsive & Lightweight**: Designed to run seamlessly and look stunning on both mobile devices and desktops.
+- **Precision Calculation**: Supports proportional calculation of subtotals, tax (VAT/PPN), and service charges.
+- **Dark & Light Mode**: A premium, eye-friendly user interface available in both light and dark modes.
+- **Shareable Links**: Save your bill calculation and generate a unique link to easily share with friends via WhatsApp, Telegram, or other platforms.
+- **Cloud Sync**: Sign in to permanently save your bill history and access it from any device.
+- **Local Access (Guest Mode)**: Don't want to sign up? No problem! The application works fully offline and saves your history securely in your local browser storage.
+- **Responsive & Lightweight**: Designed to run seamlessly and look stunning on both mobile devices and desktops.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: [Next.js 15+](https://nextjs.org/) (App Router, Turbopack)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
@@ -23,9 +23,9 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 📋 Prerequisites
+### Prerequisites
 - **Node.js**: Version 18 or higher.
 - **pnpm**: Recommended package manager.
 
